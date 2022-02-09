@@ -816,7 +816,7 @@ header .logo {
 	z-index: -992;
 }
 header .nav{
-	margin-right: 30px;
+	margin-right: -30px;
 }
 header .logo img{
 	margin-left: -20px;
