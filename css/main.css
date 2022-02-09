@@ -814,10 +814,10 @@ header .logo {
 	elements that have been given an explicit position */
 	position: relative;
 	z-index: -992;
-}
+
 
 header .logo img{
-	margin-left: -40px;
+	margin-left: -20px;
 	float: left;
 	widht:100px;
 	height: 100px;
