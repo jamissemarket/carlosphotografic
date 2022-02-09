@@ -815,11 +815,9 @@ header .logo {
 	position: relative;
 	z-index: -992;
 }
-header .nav{
-	margin-right: -30px;
-}
+
 header .logo img{
-	margin-left: -20px;
+	margin-left: -40px;
 	float: left;
 	widht:100px;
 	height: 100px;
