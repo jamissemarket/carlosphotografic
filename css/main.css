@@ -817,8 +817,8 @@ header .logo {
 }
 header .logo img{
 	float: left;
-	widht:15px;
-	height: 15px;
+	widht:50px;
+	height: 50px;
 }
 header .logo a {
 	display: block;
