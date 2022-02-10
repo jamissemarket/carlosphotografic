@@ -856,11 +856,11 @@ header .logo a {
 	padding: 0;
 	border: none;
 	outline: none;
-	margin-right: 15x;
 }
 
 /* nav-wrap */
 #nav-wrap {
+	margin-right: -350px;
 	font: 11px "raleway-heavy", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
