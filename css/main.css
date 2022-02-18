@@ -817,13 +817,15 @@ header .logo {
 }
 
 header .logo img{
-	margin-left: -20px;
-	float: left;
-	width:100px;
-	height: 100px;
+	position: fixed;
+	margin-left: -510px;
+	top:1px;
+	width:70px;
+	height: 70px;
+	
 }
 header .logo a {
-	display: block;
+		display: block;
 	margin: 0 0 0 0;
 	padding: 0;
 	border: none;
