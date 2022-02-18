@@ -905,7 +905,7 @@ ul#nav li a:active {
 	background-color: transparent !important;
 }
 ul#nav li.current a {
-	background: #f26522;
+	background: #ffc222;
 	color: white;
 }
 
