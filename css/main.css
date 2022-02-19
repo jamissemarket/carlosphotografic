@@ -1725,7 +1725,8 @@ hr {
 /*  p. Contact Section
 /* =================================================================== */
 #contact {
-	background: #12151b;
+	background-color:#DCDCDC;
+	filter: alpha(opacity = 52);
 	padding-top: 120px;
 	padding-bottom: 102px;
 	overflow: hidden;
@@ -1734,7 +1735,7 @@ hr {
 	max-width: 784px;
 }
 #contact h1 {
-	color: white;
+	color: black;
 }
 
 /* contact form */
@@ -1744,11 +1745,11 @@ hr {
 }
 #contact label {
 	font: 14px/30px "raleway-heavy", sans-serif;
-	color: #7d7e80;
+	color: black;
 	display: none;
 }
 #contact label span {
-	color: #f26522;
+	color: black;
 	display: inline-block;
 }
 #contact input, 
@@ -1758,8 +1759,9 @@ hr {
 	margin-bottom: 42px;
 	font-size: 15px;
 	width: 100%;
-	background: #12151b;
-	border: 3px solid #575859;
+	background: #fffde0;
+	filter: opacity:0.5;
+	border: 0.5px solid #575859;
 }
 #contact textarea {
 	height: 252px;
@@ -1767,8 +1769,8 @@ hr {
 #contact input:focus, 
 #contact textarea:focus, 
 #contact select:focus {
-	color: white;
-	border-color: white;
+	color: black;
+	border-color: black;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -1777,12 +1779,12 @@ hr {
 	margin-bottom: 36px;
 	line-height: 24px;
 	display: block;
-	border: 3px solid #f26522;
-	color: #f26522;
+	border: 0.5px solid #f26522;
+	color: #fffde0;
 	background: transparent;
 }
 #contact button.submit:hover {
-	color: white;
+	color: black;
 	background: #f26522;
 }
 
