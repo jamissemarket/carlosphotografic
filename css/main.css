@@ -1051,7 +1051,8 @@ footer {
 	font-size: 13px;
 	line-height: 24px;
 	position: relative;
-	color: #3C4142;	
+	color: white;
+	background-color:#0f4c81;;	
 }
 footer a, footer a:visited {
 	color: #a43b0a;
@@ -1088,7 +1089,7 @@ footer ul li {
 	line-height: 24px;
 }
 footer ul li a, footer ul li a:visited {
-	color: #3C4142;
+	color: black;
 }
 footer .copyright {
 	margin: 0;
@@ -1725,7 +1726,7 @@ hr {
 /*  p. Contact Section
 /* =================================================================== */
 #contact {
-	background-color:#DCDCDC;
+	background-color:white;
 	filter: alpha(opacity = 52);
 	padding-top: 120px;
 	padding-bottom: 102px;
