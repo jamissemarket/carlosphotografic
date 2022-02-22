@@ -795,8 +795,7 @@ header {
 	top: 0;
 	z-index: 990;
 	text-align: center;
-	background: #12151B;
-	background: rgba(18, 21, 27, 0.5);
+	background: #054f77;
 	background: #054f77;
 	-moz-transition: background 0.5s ease-in-out;
 	-o-transition: background 0.5s ease-in-out;
