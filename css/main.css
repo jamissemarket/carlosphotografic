@@ -795,8 +795,8 @@ header {
 	top: 0;
 	z-index: 990;
 	text-align: center;
-	background: #12151B;
-	background: rgba(18, 21, 27, 0.5);
+	background: rgb(149, 202, 228);
+	background:rgb(255, 204, 51);
 	-moz-transition: background 0.5s ease-in-out;
 	-o-transition: background 0.5s ease-in-out;
 	-webkit-transition: background 0.5s ease-in-out;
@@ -848,7 +848,7 @@ header .logo a {
 	}
 }
 .opaque {
-	background: #12151b;
+	background:rgb(88, 88, 88)
 }
 
 /* primary navigation
@@ -891,7 +891,7 @@ ul#nav li a {
 	padding: 17px 12px;
 	line-height: 38px;
 	text-decoration: none;
-	color: #c0cdd1;
+	color: black;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -1052,7 +1052,7 @@ footer {
 	line-height: 24px;
 	position: relative;
 	color: white;
-	background-color:#0f4c81;;	
+	background-color:rgb(88, 88, 88));;	
 }
 footer a, footer a:visited {
 	color: #a43b0a;
@@ -1089,7 +1089,7 @@ footer ul li {
 	line-height: 24px;
 }
 footer ul li a, footer ul li a:visited {
-	color: black;
+	color: white;
 }
 footer .copyright {
 	margin: 0;
@@ -1108,7 +1108,7 @@ footer #go-top {
 footer #go-top a {
 	display: block;
 	padding: 12px 30px;
-	background: #d44d0d;
+	background:rgb(244, 184, 0);
 	color: white;
 	text-align: center;
 	font: 12px/24px "raleway-heavy", sans-serif;
@@ -1760,7 +1760,7 @@ hr {
 	margin-bottom: 42px;
 	font-size: 15px;
 	width: 100%;
-	background: #fffde0;
+	background: rgb(255, 255, 255);
 	filter: opacity:0.5;
 	border: 0.5px solid #575859;
 }
@@ -1781,12 +1781,12 @@ hr {
 	line-height: 24px;
 	display: block;
 	border: 0.5px solid #f26522;
-	color: #fffde0;
+	color: rgb(0, 0, 0);
 	background: transparent;
 }
 #contact button.submit:hover {
 	color: black;
-	background: #f26522;
+	background: rgb(244, 184, 0);
 }
 
 /* for ie9 and lower */
