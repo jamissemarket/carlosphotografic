@@ -795,8 +795,13 @@ header {
 	top: 0;
 	z-index: 990;
 	text-align: center;
+<<<<<<< HEAD
+	background: #054f77;
+	background: #054f77;
+=======
 	background: rgb(149, 202, 228);
 	background:rgb(255, 204, 51);
+>>>>>>> 18ff4ca98546bd01133c62783e1d7537edc801ac
 	-moz-transition: background 0.5s ease-in-out;
 	-o-transition: background 0.5s ease-in-out;
 	-webkit-transition: background 0.5s ease-in-out;
