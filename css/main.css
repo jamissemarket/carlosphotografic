@@ -817,7 +817,6 @@ header .logo {
 	z-index: -992;
 }
 
-<<<<<<< Updated upstream
 header .logo img{
 	position: fixed;
 	margin-left: -320px;
@@ -831,35 +830,33 @@ header .logo a {
 	margin: 0 0 0 0;
 	padding: 0;
 	border: none;
-=======
-/*header .logo img{
+}	
+
 	margin-left: 100px;
 	float: left;
 	widht:100px;
 	height: 100px;
-}*/
-header .logo img {
+}
+ header .logo img {
 	display: block;
 	margin-left: -700;
 	padding: 70px;
->>>>>>> Stashed changes
 	outline: none;
 	width: 176px;
 	height: 12px;
-	
 	background-position: fixed;
 	background-image: url("../images/jrmarket/jrlogo.png");
-}
+ }
 @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
 	header .logo  {
 		background-image: url("../images/jrmarket/jrlogo.png");
 		-webkit-background-size: 126px 12px;
 		-moz-background-size: 126px 12px;
 		background-size: 126px 12px;
-	}
+}
 }
 .opaque {
-	background:rgb(88, 88, 88)
+	background:rgb(88, 88, 88);
 }
 
 /* primary navigation
