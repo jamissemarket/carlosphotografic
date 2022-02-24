@@ -1053,7 +1053,7 @@ footer {
 	line-height: 24px;
 	position: relative;
 	color: white;
-	background-color:rgb(88, 88, 88));;	
+	background-color:rgb(88, 88, 88);	
 }
 footer a, footer a:visited {
 	color: #a43b0a;
@@ -1463,7 +1463,9 @@ hr {
 	
 }
 #portfolio .row.items {
-	max-width: 100%;
+
+	max-width: 2500px;
+
 }
 
 /* Portfolio wrapper */
@@ -1764,8 +1766,8 @@ hr {
 	font-size: 15px;
 	width: 100%;
 	background: rgb(255, 255, 255);
-	filter: opacity:0.5;
-	border: 0.5px solid #575859;
+	filter: opacity 0.5;
+	border:0.5 px solid #575859;
 }
 #contact textarea {
 	height: 252px;
