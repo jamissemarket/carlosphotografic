@@ -795,13 +795,9 @@ header {
 	top: 0;
 	z-index: 990;
 	text-align: center;
-<<<<<<< HEAD
-	background: #054f77;
-	background: #054f77;
-=======
-	background: rgb(149, 202, 228);
-	background:rgb(255, 204, 51);
->>>>>>> 18ff4ca98546bd01133c62783e1d7537edc801ac
+	background: white;
+	background:rgb(250, 2, 2);
+
 	-moz-transition: background 0.5s ease-in-out;
 	-o-transition: background 0.5s ease-in-out;
 	-webkit-transition: background 0.5s ease-in-out;
@@ -824,9 +820,9 @@ header .logo {
 header .logo img{
 	position: fixed;
 	margin-left: -320px;
-	top:1px;
-	width:70px;
-	height: 70px;
+	top: -10px;
+	width:90px;
+	height: 90px;
 	
 }
 header .logo a {
@@ -896,7 +892,7 @@ ul#nav li a {
 	padding: 17px 12px;
 	line-height: 38px;
 	text-decoration: none;
-	color: black;
+	color: white;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -1460,12 +1456,14 @@ hr {
 #portfolio {
 	background: white;
 	padding-top: 120px;
-}
+	
+	}
 .ie #portfolio .row.items {
 	width: 1140px;
+	
 }
 #portfolio .row.items {
-	max-width: 1200px;
+	max-width: 100%;
 }
 
 /* Portfolio wrapper */
@@ -1487,7 +1485,7 @@ hr {
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 100%;
+	width: 150%;
 	height: 100%;
 	filter: alpha(opacity=0);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
