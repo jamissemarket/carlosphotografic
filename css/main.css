@@ -839,17 +839,17 @@ header .logo a {
 }
  header .logo img {
 	display: block;
-	margin-left: -700;
+	margin-left: 100px;
 	padding: 70px;
 	outline: none;
 	width: 176px;
 	height: 12px;
 	background-position: fixed;
-	background-image: url("../images/jrmarket/jrlogo.png");
+	background-image: url("../images/logojrimg.png");
  }
 @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
 	header .logo  {
-		background-image: url("../images/jrmarket/jrlogo.png");
+		background-image: url("../images/logojrimg.png");
 		-webkit-background-size: 126px 12px;
 		-moz-background-size: 126px 12px;
 		background-size: 126px 12px;
@@ -1732,8 +1732,38 @@ hr {
 #journal #blog-wrapper article {
 	margin-bottom: 24px;
 }
-
-
+/*
+/* Orcamento section
+/* =================================================================*/
+#orcamento{
+	background-color:white;
+}
+/*
+/* Estudios section
+/* =================================================================*/
+#Estudios{
+	background-color:white;
+	filter: alpha(opacity = 52);
+	padding-top: 120px;
+	padding-bottom: 102px;
+	overflow: hidden;
+}
+#Estudios .h1{
+	color:rgb(109, 49, 49);
+	text-align: center;
+	
+}
+#Estudios .p{
+	text-align:right;
+	font-size: 76px;
+    line-height: 10px;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+#Estudios .row{
+	max-width:784;
+}
 /* 
 /*  p. Contact Section
 /* =================================================================== */
