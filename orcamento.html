@@ -1,50 +1,70 @@
 <!DOCTYPE html>
+
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
-<head>
+<html lang="en">
 
-   <!--- Basic Page Needs
-   ================================================== -->
+  <head>
    <meta charset="utf-8">
 	<title>Jr imagemarket</title>
 	<meta name="description" content="">  
-	<meta name="author" content="">
-
-   <!-- Mobile Specific Metas
+	<meta name="author" content="">	
+  <!--  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+	 -->
+	 <!-- Mobile Specific Metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/media-queries.css">         
-
-   <!-- Script
+   <link rel="stylesheet" href="css/orcamentobase.css">
+	<link rel="stylesheet" href="css/orcamento.css">
+   <link rel="stylesheet" href="css/media-queriesorcamento.css"> 
+   
+    <!-- Script
    =================================================== -->
-	<script src="js/modernizr.js"></script>
+	<script src="js/modernizrorcamento.js"></script>
 
    <!-- Favicons
 	=================================================== -->
 	<link rel="shortcut icon" href="favicon.png" >
 
-</head>
+    <!-- Bootstrap core CSS -->
+   <!-- <link href="vendor/bootstrap/css/bootstraporacamento.min.css" rel="stylesheet">
+-->
+<!--
 
-<body class="homepage">
+TemplateMo 546 Sixteen Clothing
+
+https://templatemo.com/tm-546-sixteen-clothing
+
+-->
+
+    <!-- Additional CSS Files -->
+  <!--  <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+-->
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+   <body class="homepage">
 
    <div id="preloader"> 
 	   <div id="status">
          <img src="images/loader.gif" height="60" width="60" alt="">
          <div class="loader">Loading...</div>
       </div>
-   </div>
-   
+   </div> 
+    <!-- ***** Preloader End ***** -->
 
-   <!-- Header
-   =================================================== -->
-   <header id="main-header">
+    <!-- Header -->
+     <header id="main-header">
    
 
    	<div class="row header-inner">
@@ -52,8 +72,9 @@
 	     
  <div class="logo">
 
-	         <img src="images/jrmarket/jrlogo.png"height="5" widht="5"alt=""></img>
+	        <a href="#hero"> <img src="images/jrimg.png"height="5" widht="5"alt=""></img></a>
 
+	         
 	        
 	      </div>
 	      <nav id="nav-wrap" class="menu">         
@@ -68,17 +89,14 @@
          	</a>         
 			 
 	         <ul id="nav" class="nav">
-				 <li>
-					<img src="images/logoimg/jrlogo.png"height="5" widht="5"alt=""></img>
-				 </li>
-	            <li class="current">
-				<a href="index.html">Página Inicial</a></li>
+				
+	            <li class="current"><a class="smoothscroll" href="#hero">Página Inicial</a></li>
 				<li><a class="smoothscroll" href="#about">Sobre Nós</a></li>
 				<li><a href="estudios.html">Estúdios</a></li>
 		         <li><a class="smoothscroll" href="#portfolio">Galeria</a></li>
 				 <li><a class="smoothscroll" href="#journal">Blog</a></li>
 	            <li><a class="smoothscroll" href="#services">Serviços</a></li>
-	            <li><a  href="orcamento.html">Orçamentos</a></li>            
+	            <li><a href="orcamento.html">Orçamentos</a></li>            
 	            <li><a class="smoothscroll" href="#contact">Contactos</a></li>
 	         </ul> 
 			
@@ -88,857 +106,207 @@
 
    </header> 
 
-
-   <!-- Hero
-   =================================================== -->
-   <section id="hero">	
-   	  
-		<div class="row hero-content">
-
-			<div class="twelve columns flex-container">
-
-			   <div id="hero-slider" class="flexslider">
-
-				   <ul class="slides">
-
-					   <!-- Slide -->
-					   <li>
-						   <div class="flex-caption">
-								<!--<h1>Hello, we are puremedia. We make awesome and stunning digital stuff.</h1>	-->
-								<p><a class="button stroke smoothscroll" href="#about">Sobre Nós</a></p>																   
-							</div>						
-					   </li> 
-
-					   <!-- Slide -->
-					   <li>						
-							<div class="flex-caption">
-								<!--<h1 >We imagine, craft and manage your brand in this new digital world.</h1>	-->
-								<p><a class="button stroke smoothscroll" href="#portfolio">See Our Works</a></p>									   
-							</div>					
-					   </li>
-
-					   <!-- Slide -->
-					  <li>
-						   <div class="flex-caption">
-							<!--	<h1 >Take a look at some of <a class="smoothscroll" href="#portfolio" title="">our works</a> or <a class="smoothscroll" href="#contact" title="">contact us</a> to discuss how we can help you.</h1> -->
-								<p><a class="button stroke smoothscroll" href="#contact">Get In Touch</a></p>										   
-							</div>
-					   </li>					              
-
-				   </ul>
-
-			   </div> <!-- .flexslider -->				   
-
-	      </div> <!-- .flex-container -->      
-
-		</div> <!-- .hero-content -->	   
-
-   </section> <!-- #hero -->
-
-
-   <!-- Portfolio
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row section-head">
-
-      	<div class="twelve columns">
-
-	         <h1>Our Latest Works<span>.</span></h1>
-
-	         <hr />
-
-	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         </p>
-
-	      </div>
-
+    <!-- Page Content -->
+   <!-- <div class="page-heading contact-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-content">
+              <h4>contact us</h4>
+              <h2>let’s get in touch</h2>
+            </div>
+          </div>
+        </div>
       </div>
+    </div> -->
 
-      <div class="row items">
-
-      	<div class="twelve columns">
-
-            <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third mob-bgrid-half group">
-
-          	   <div class="bgrid item">
-                  <div class="item-wrap">
-
-                     <a href="portfolio.html">
-                        <img src="images/portfolio/grizzly.jpg" alt="Grizzly">
-                        <div class="overlay"></div>                       
-                        <div class="portfolio-item-meta">
-          					      <h5>Grizzly</h5>
-                              <p>Photography</p>
-          					</div>                         
-                     </a>
-
-                  </div>
-          		</div> <!-- /item -->
-
-               <div class="bgrid item">
-                  <div class="item-wrap">
-
-                     <a href="portfolio.html">
-                        <img src="images/portfolio/hotel.jpg" alt="Hotel Sign">
-                        <div class="overlay">
-                        	<div class="portfolio-item-meta">
-          					      <h5>Hotel Sign</h5>
-                              <p>Webdesign</p>
-          					   </div>
-                        </div>                        
-                     </a>
-
-                  </div>
-          		</div> <!-- /item -->
-
-               <div class="bgrid stack item">
-                  <div class="item-wrap">
-
-                     <a href="portfolio.html">
-                        <img src="images/portfolio/beetle.jpg" alt="Beetle">                        
-                        <div class="overlay">
-                        	<div class="portfolio-item-meta">
-          					      <h5>Beetle</h5>
-                              <p>Branding</p>
-          					   </div>
-                        </div>                        
-                     </a>
-
-                  </div>
-          		</div> <!-- /item -->
-
-               <div class="bgrid item">
-                  <div class="item-wrap">
-
-                     <a href="portfolio.html">
-                        <img src="images/portfolio/banjo-player.jpg" alt="Banjo Player">
-                        <div class="overlay">
-                        	<div class="portfolio-item-meta">
-          					      <h5>Banjo Player</h5>
-                              <p>Videography</p>
-          					   </div>
-                        </div>                       
-                     </a>
-
-                  </div>
-          		</div> <!-- /item -->
-
-               <div class="bgrid item">
-                  <div class="item-wrap">
-
-                     <a href="portfolio.html">
-                     	<img src="images/portfolio/coffee.jpg" alt="Coffee Cup">
-                       	<div class="overlay">
-                       		<div class="portfolio-item-meta">
-          					      <h5>Coffee Cup</h5>
-                              <p>Photography</p>
-          					   </div>
-                       	</div>                        
-                     </a>
-
-                  </div>
-          		</div> <!-- /item -->
-
-               <div class="bgrid item">
-                  <div class="item-wrap">
-
-                     <a href="portfolio.html">
-                        <img src="images/portfolio/farmerboy.jpg" alt="Farmerboy">
-                        <div class="overlay">
-                        	<div class="portfolio-item-meta">
-          					      <h5>Farmerboy</h5>
-                              <p>Branding</p>
-          					   </div>
-                        </div>                        
-                     </a>
-
-                  </div>
-          		</div> <!-- /item -->
-
-               <div class="bgrid item">
-                  <div class="item-wrap">
-
-                     <a href="portfolio.html">                        
-                        <img src="images/portfolio/judah.jpg" alt="Judah">                       
-                        <div class="overlay">
-                        	<div class="portfolio-item-meta">
-          					      <h5>Judah</h5>
-                              <p>Web Design</p>
-          					   </div>
-                        </div>                        
-                     </a>
-
-                  </div>
-          		</div> <!-- /item -->
-
-               <div class="bgrid item">
-                  <div class="item-wrap">
-
-                     <a href="portfolio.html">
-                        <img src="images/portfolio/embossed-paper.jpg" alt="Embossed Paper">
-                        <div class="overlay">
-                        	<div class="portfolio-item-meta">
-          					      <h5>Embossed Paper</h5>
-                              <p>Branding</p>
-          					   </div>
-                        </div>                                                
-                     </a>                   
-
-                  </div>
-          		</div>  <!-- item end -->
-
-            </div> <!-- /portfolio-wrapper -->
-
-         </div> <!-- /twelve -->
-
-      </div>  <!-- /row -->
-      
-   </section> <!-- /Portfolio -->
-
-
-   <!-- Services Section
-   ================================================== -->
-   <section id="services">
-
-   	<div class="row section-head">
-
-   		<div class="twelve columns">
-
-	         <h1>ÁREAS DE ACTUAÇÃO<span>.</span></h1>
-
-	         <hr />
-
-	         <p>A JR IMAGEMARKET é uma empresa moçambicana no ramo da comunicação, criada em 2011,
-com experiência acumulada e valor agregado aos serviços prestados. criamos soluções
-através de projetos de comunicação visual que atendam as necessidades do mercado.
-	         </p>
-
+<!--
+    <div class="find-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Our Location on Maps</h2>
+            </div>
+          </div>
+          <div class="col-md-8"> -->
+<!-- How to change your own map point
+	1. Go to Google Maps
+	2. Click on your location point
+	3. Click "Share" and choose "Embed map" tab
+	4. Copy only URL and paste it within the src="" field below
+-->
+          <!--  <div id="map">
+              <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="330px" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div> -->
+        <!--  </div>
+          <div class="col-md-4">
+            <div class="left-content">
+              <h4>About our office</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti.</p>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+		<div class="row">
+		<div class="colluna">
+				
+					<div class="">
+								
+									<div class="section-heading">
+									
+										<h2>SOLICITE UM ORÇAMENTO</h2>
          </div>
-
-      </div>
-
-      <div class="row">
-
-      	<div class="twelve columns">
-
-	      	<div class="service-list bgrid-third s-bgrid-half mob-bgrid-whole">
-
-	      		<div class="bgrid">
-
-	               <div class="icon-part">
-	               	<span class="icon-graph"></span>
-	               </div>
-
-	               <h3>DESIGN GRÁFICO</h3>
-
-	               <div class="service-content">	                  
-		               <p>Desenvolvemos manual de identidade de uma empresa e activamos a marca para o mercado,
-propagamos os serviços dos nossos clientes, oferecemos uma comunicação visual única e
-diferenciada de modo a atingir o grupo alvo dos nossos clientes. Os nossos serviços, baseam-se
-em criar planejamento e produção de comunicação visual. 
-	         			</p> 
-	               </div>      
-
-	            </div> <!-- /bgrid -->
-
-				   <div class="bgrid">
-
-	              	<div class="icon-part">
-	               	<i class="icon-film"></i>
-	               </div>
-
-	               <h3>CONTEÚDO AUDIO-VISUAL.</h3>                  
-
-	               <div class="service-content">	                  
-		               <p>Como forma de facilitar ou proporcionar os objectivos aos nossos clientes, Trabalhamos na pré-produção e selecção de material institucional para realização
-de um vídeo que vai impulsionar mais os seus objectivos.
-Vídeo Cobertura
-Captamos os melhores momentos que decorre, onde são apresentados todos os momentos de
-uma cerimónia ou evento.
-
-	         			</p> 
-	               </div>                                 
-
-	            </div> <!-- /bgrid -->
-
-				   <div class="bgrid">
-
-	              	<div class="icon-part">	               	
-	               	<i class="icon-camera"></i>
-	               </div>
-
-	               <h3>REDES SOCIAIS</h3>
-
-	               <div class="service-content">		                  
-		               <p>Actuamos também na área de comunicação Digital. Criamos campanhas para redes socias,
-fazemos a gestão de reputação das mesmas dando mais credibilidade ao cliente para com a
-empresa ou Figuras.
-A Gestão de reputação quando dirigida a uma Companhia ou Organização
-fazemos ampliação do público e inserção do seu posicionamento.
-
-	         			</p> 
-	               </div>                               
-
-	            </div> <!-- /bgrid -->
-
-				   <div class="bgrid first">
-
-	              	<div class="icon-part">
-	               	<i class="icon-eye"></i>	               	
-	               </div>
-	                  
-	               <h3>MARKETING</h3> 
-
-	               <div class="service-content">	                  
-		               <p>Elaboramos estratégias de comunicação, que determinam quais veículos e editorias
-devem ser priorizados no lançamento de informações para divulgação, que são
-chamadas de comunicado de imprensa.
-Também está na nossa área de atuação o acompanhamento de entrevistas 
-	         			</p> 
-	               </div>                                 
-
-	            </div> <!-- /bgrid -->
-
-				   <div class="bgrid">
-
-	              	<div class="icon-part">
-	               	<i class="icon-screen-desktop"></i>
-	               </div>
-	                  
-	               <h3>ACESSORIA DE IMPRENSA</h3>
-
-	               <div class="service-content">	                  
-		               <p>Elaboramos estratégias de comunicação, que determinam quais veículos e editorias
-devem ser priorizados no lançamento de informações para divulgação, que são
-chamadas de comunicado de imprensa.
-Também está na nossa área de atuação o acompanhamento de entrevistas 
-	         			</p> 
-	               </div>                                 
-
-	             </div> <!-- /bgrid -->
-
-				  <div class="bgrid">
-
-	               <div class="icon-part">
-	               	<i class="icon-eyeglasses"></i>
-	               </div>
-
-	               <h3>COBERTURA FOTOGRÁFICA</h3>
-
-	               <div class="service-content">
-		               <p>
-Atuamos na cobertura fotográfica de eventos corporativos, tais como Seminários, formações,
-jantares, almoços, conferências de imprensa, visitas, convenções e encontro de colaboradores.
-	         			</p> 
-	               </div>                              
-
-	            </div>  <!-- /bgrid -->
-
-	      	</div> <!-- /service-list -->
-
-	      </div> <!-- /twelve -->
-
-      </div> <!-- /row -->      
-
-   </section> <!-- /services -->   
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-
-   	<div class="row section-head">
-
-   		<div class="twelve columns">
-
-	         <h1>Sobre nós<span>.</span></h1>
-
-	         <hr />
-
-	         <p> A JR IMAGEMARKET é uma empresa moçambicana no ramo da comunicação, criada em 2011,
-com experiência acumulada e valor agregado aos serviços prestados. criamos soluções
-através de projetos de comunicação visual que atendam as necessidades do mercado.
-	         </p>
-
-	      </div>
-
-      </div>
-
-      <div class="row about-content"> 
-
-      	<div class="mob-whole six columns left">
-
-      		<h3>ÁREAS DE ACTUAÇÃO</h3>	
-<ol>
-	      	<ul>
-			<li>DESIGN GRÁFICO </li>
-			  <li> REDES SOCIAIS </li> 
-			   <li>CONTEÚDO AUDIO-VISUAL</li>
-			  <li> MARKETING</li>
-			  <li> ACESSORIA </li>
-			  </ul>
-			  </ol>
-
-      	</div> <!-- /left -->
-
-      	<div class="mob-whole six columns right">
-
-	      	<h3>DESIGN GRÁFICO</h3>
-
-	      	<p>Desenvolvemos manual de identidade de uma empresa e activamos a marca para o mercado,
-propagamos os serviços dos nossos clientes, oferecemos uma comunicação visual única e
-diferenciada de modo a atingir o grupo alvo dos nossos clientes. Os nossos serviços, baseam-se
-em criar planejamento e produção de comunicação visual.
-
-	         </p>	
-
-      	</div> <!-- /right -->
-
-      </div> <!-- /row -->    
-
-      <div class="row about-content"> 
-
-      	<div class="mob-whole six columns left">
-
-	      	<h3>REDES SOCIAIS</h3>	
-
-	      	<p>Actuamos também na área de comunicação Digital. Criamos campanhas para redes socias,
-fazemos a gestão de reputação das mesmas dando mais credibilidade ao cliente para com a
-empresa ou Figuras.
-A Gestão de reputação quando dirigida a uma Companhia ou Organização
-fazemos ampliação do público e inserção do seu posicionamento englobando
-serviços, valores, pessoas que fazem a empresa.
-A Gestão de reputação quando dirigida a uma figura, programamos acções e
-estratégias de comunicação que enalteçam o cargo e competência que exerce,
-damos a visibilidade nos eventos em que participa e usamos os discursos para
-massificar nas redes sociais
-	         </p>
-
-      	</div> <!-- /left -->
-
-      	<div class="mob-whole six columns right">
-
-	      	<h3>CONTEÚDO AUDIO-VISUAL </h3>
-
-	      	<p>Vídeos Institucionais
-Trabalhamos na pré-produção e selecção de material institucional para realização
-de um vídeo que vai impulsionar mais os seus objectivos.
-Vídeo Cobertura
-Captamos os melhores momentos que decorre, onde são apresentados todos os momentos de
-uma cerimónia ou evento.
-CONTEÚDO AUDIO-VISUAL
-Vídeos corporativos
- Spots publicitários
-Cobertura Fotográfica
-Atuamos na cobertura fotográfica de eventos corporativos, tais como Seminários, formações,
-jantares, almoços, conferências de imprensa, visitas, convenções e encontro de colaboradores.
-• Documentários
-	         </p>	
-
-      	</div> <!-- /right -->
-		<!-- Coluna Extra-->
-<!-- ===========================================================================-->
-		<div class="row about-content"> 
-
-      	<div class="mob-whole six columns left">
-
-	      	<h3>MARKETING</h3>	
-
-	      	<p>Marketing Serviços
-Aumentamos a visibilidade do produto ou serviço,v que faz que aconteça uma
-potencialidade de angariar novos clientes, abrangindo pessoas que não conheciam a
-marca e que podem se converter e aderir seu produto ou serviço.
-Marketing Digital
-Usamos meios de comunicação rápidos, acessiveis e eficazes. Além de muito procurados
-por clientes para tirar dúvidas e obter mais informações por serem de fácil acesso.   </p>
-
-      	</div> <!-- /left -->
-
-      	<div class="mob-whole six columns right">
-
-	      	<h3>ACESSÓRIA DE IMPRENSA</h3>
-
-	      	<p>Elaboramos estratégias de comunicação, que determinam quais veículos e editorias
-devem ser priorizados no lançamento de informações para divulgação, que são
-chamadas de comunicado de imprensa.
-Também está na nossa área de atuação o acompanhamento de entrevistas
-	         </p>	
-
-      	</div> <!-- /right -->
-
-      </div> <!-- /row -->
-
-
-      <!-- team
-   	=================================================== -->
-   	<div id='team'>
-
-	      <div class="row team section-head">
-
-	   		<div class="twelve columns">
-
-		         <h1>Our Rockstar Team<span>.</span></h1>
-
-		         <hr />
-
-		         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-		         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-		         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-		         </p>	         
-
-		      </div>
-
-	      </div>
-
-      	<div class="row about-content">
-
-      		<div class="twelve columns">
-
-		         <div id="team-wrapper" class="bgrid-half mob-bgrid-whole group">
-
-		            <div class="bgrid member">
-
-		               <div class="member-header">
-
-		                 	<div class="member-pic">
-									<img src="images/team/member01-k.jpg" alt=""/>                        	                       	
-		                 	</div>
-
-		                  <div class="member-name">
-		                     <h3>Naruto Uzumaki</h3>
-		                     <span>Creative Director</span>
-		                  </div>
-
-		               </div>							
-
-		               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-		               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
-
-		               <ul class="member-social">
-		                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
-		               </ul>
-
-		          	</div> <!-- /member -->
-
-		            <div class="bgrid member">
-
-		              	<div class="member-header">
-										
-								<div class="member-pic">
-		                 		<img src="images/team/member02-k.jpg" alt=""/>                        	
-		                	</div>
-		                
-		                	<div class="member-name">
-		                   	<h3>Sasuke Uchiha</h3>
-		                   	<span>Lead Designer</span>
-		                	</div>
-
-		               </div>
-
-		               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-		               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
-
-		               <ul class="member-social">
-		                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
-		               </ul>
-
-		       		</div> <!-- /member -->
-
-		            <div class="bgrid member first">
-
-							<div class="member-header">
-							
-								<div class="member-pic">
-		                		<img src="images/team/member03-k.jpg" alt=""/>                        	
-		               	</div>
-
-		               	<div class="member-name">
-		                  	<h3>Sakura Haruno</h3>
-		                  	<span>Web Designer</span>
-		               	</div>
-
-							</div>
-
-		               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-		               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
-
-		               <ul class="member-social">
-		                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
-		               </ul>
-
-		      		</div> <!-- /member -->
-
-		            <div class="bgrid member">
-
-		            	<div class="member-header">
-										
-								<div class="member-pic">
-									<img src="images/team/member04-k.jpg" alt=""/>                        	                        	
-		                 	</div>
-
-		                  <div class="member-name">
-		                     <h3>Shikamaru Nara</h3>
-		                     <span>Web Designer</span>
-		                  </div>
-
-		               </div>
-
-		               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-		                  nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
-
-		               <ul class="member-social">
-		                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-		                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
-		               </ul>
-
-		            </div> <!-- /member -->
-
-		         </div> <!-- /twelve -->
-
-	         </div> <!-- /team-wrapper -->
-
-         </div> <!-- /row -->
-
-      </div> <!-- /team -->           
-
-   </section> <!-- /about -->
-
-
-   <!-- journal
-   =================================================== -->
-   <section id="journal">
-
-	   <div class="row section-head">
-
-	   	<div class="twelve columns">
-
-			   <h1>Our Latest Ramblings<span>.</span></h1>
-
-			   <hr />
-
-			   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-		       eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-		       voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-		      </p>	         
-
-		    </div>
-
-	   </div>
-
-      <div class="row">
-
-      	<div class="twelve columns">
-
-	         <div id="blog-wrapper" class="bgrid-third s-bgrid-half mob-bgrid-whole group">
-
-	            <article class="bgrid">
-						
-						<h5>September 2, 2014</h5>
-	               <h3><a href="single.html">Sed ut perspiciatis unde omnis iste natus</a></h3>
-	                           
-	               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-	               isi elit consequat ipsum, nec sagittis sem nibh id elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
-	               </p>
-	                        
-	            </article>
-
-	            <article class="bgrid">
-						
-						<h5>August 29, 2014</h5>
-	               <h3><a href="single.html">Natus error sit voluptatem accusantium.</a></h3>
-	                           
-	               <p>
-	               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-	               totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-	            	</p>
-	                        
-	            </article>
-
-	            <article class="bgrid">
-						
-						<h5>August 28, 2014</h5>	
-	               <h3><a href="single.html">Ut enim ad minim veniam quis nostrud</a></h3>
-	                           
-	               <p>
-	               Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-	               isi elit consequat ipsum, nec sagittis sem nibh id elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. 
-	            	</p>
-	                        
-	            </article>
-
-	            <article class="bgrid first">
-						
-						<h5>August 27, 2014</h5>
-	               <h3><a href="single.html">Sed ut perspiciatis unde omnis iste natus</a></h3>
-	                           
-	               <p>
-	               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	               consequat.
-	            	</p>
-	                        
-	            </article>
-
-	            <article class="bgrid">
-						
-						<h5>August 25, 2014</h5>
-	               <h3><a href="single.html">Rerum dignissimos alias eligendi laudantium quod.</a></h3>
-	                           
-	               <p>
-	               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fuga distinctio natus ab sint 
-	               voluptate quos cumque assumenda ipsa cupiditate aperiam officiis recusandae nemo labore adipisci harum, 
-	               ea odio dolor. 
-	            	</p>
-	                        
-	            </article>
-
-	            <article class="bgrid">
-						
-						<h5>August 23, 2014</h5>
-	               <h3><a href="single.html">Sed ut perspiciatis unde omnis iste natus</a></h3>
-	                           
-	               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt cumque, aut nam at, 
-	               doloremque repellat blanditiis quo accusantium, rerum dignissimos alias eligendi, laudantium quod. 
-	               Autem nihil explicabo ipsa magnam porro.
-	            	</p>
-	                        
-	            </article>                     
-
-	         </div> <!-- /blog-wrapper -->
-
-	      </div> <!-- /twelve -->
-
-      </div> <!-- /row -->
-
-   </section> <!-- /blog -->
-
-   
-   <!-- Contact Section
-   ================================================== -->
-   <section id="contact">
-
-   	<div class="row section-head">
-
-   		<div class="twelve columns">
-
-	         <h1>Get In Touch With Us<span>.</span></h1>
-
-	         <hr />
-
-	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         </p>
-
-	      </div>
-
-      </div>
-
-      <div class="row form-section">
-      	
-      	<div id="contact-form" class="twelve columns">
-
-            <form name="contactForm" id="contactForm" method="post" action="">
-
-      			<fieldset>
-
-                  <div class="row">
-
-	                  <div class="six columns mob-whole">
-	                  	<label for="contactFname">First Name <span class="required">*</span></label>	      						   
-	      					<input name="contactFname" type="text" id="contactFname" placeholder="First Name" value="" />	      					
-	                  </div>
-
-	                  <div class="six columns mob-whole">	
-	                  	<label for="contactLname">Last Name <span class="required">*</span></label>      						   
-	      					<input name="contactLname" type="text" id="contactLname" placeholder="Last Name" value="" />	      					
-	                  </div>	                        
-
+		 
+           <ul class="accordion">
+              <li>
+                  <a>Accordion Title One</a>
+                  <div class="content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
                   </div>
-
-                  <div class="row">
-
-	                  <div class="six columns mob-whole">	
-	                  	<label for="contactEmail">Email <span class="required">*</span></label>      						   
-	      					<input name="contactEmail" type="text" id="contactEmail" placeholder="Email" value="" />	      					
-	                  </div>
-
-	                  <div class="six columns mob-whole">	 
-	                  	<label for="contactSubject">Subject</label>     						   
-	      					<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"  value="" />	      					
-	                  </div>
-
+              </li>
+              <li>
+                  <a>Second Title Here</a>
+                  <div class="content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
                   </div>
-
-                  <div class="row">
-
-	                  <div class="twelve columns">
-	                     <label  for="contactMessage">Message <span class="required">*</span></label>
-	                     <textarea name="contactMessage"  id="contactMessage" placeholder="Your Message" rows="10" cols="50" ></textarea>
-	                  </div>
-
+              </li>
+              <li>
+                  <a>Accordion Title Three</a>
+                  <div class="content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
                   </div>
-
-                  <div>
-                     <button class="submit full-width">Send Message</button>
-                     <div id="image-loader">
-                        <img src="images/loader.gif" alt="" />
-                     </div>
+              </li>
+              <li>
+                  <a>Fourth Accordion Title</a>
+                  <div class="content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisic elit. Sed voluptate nihil eumester consectetur similiqu consectetur.<br><br>Lorem ipsum dolor sit amet, consectetur adipisic elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti elite.</p>
                   </div>
+              </li>
+            </ul>
+			</td>
+		
+        </div>
+		</div>
+		
+		  <div class="coluna">
+          <div class=""> 
+		  
+		  <td>
+		   <form action="https://app.ricardohara.com.br/orcamento/cadastra/?action=1" method="post" class="hara-form clearfix" name="orcamento" accept-charset="UTF-8">
+				<input class="form-control" type="hidden" id="status" name="status" value="1">
+               <table> 
+			   
+            <div class="form-group">
+			<tr>
+			   <td>
+				<label for="txtNome">Nome: <span class="required-label">*</span></label>
+				<input class="form-control" type="text" id="txtNome" name="txtNome" placeholder="Digite seu nome completo" autofocus=""> 
+				</td>
 
-      			</fieldset>
-      				
-      		</form> <!-- /contactForm -->
+			</div>
 
-            <!-- message box -->
-            <div id="message-warning"></div>
-            <div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br />
-    			</div>
-
-         </div> <!-- /contact-form -->      	
-
-      </div> <!-- /form-section -->     
-
-   </section>  <!-- /contact-->
+			<div class="form-group">
+			<td>
+				<label for="txtEmail">E-mail: <span class="required-label">*</span></label>
+				<input class="form-control" type="email" id="txtEmail" name="txtEmail" placeholder="Digite um endereço de e-mail válido">
+			</td>
+			</div>
 
 
-   <!-- Footer
-   ================================================== -->
+			<div class="form-group">
+			<td>
+				<label for="txtTelefone">Telefone:</label>
+				<input class="form-control phoneSP9" type="text" id="txtTelefone" name="txtTelefone" placeholder="Digite seu telefone" maxlength="15" autocomplete="off"> 
+			</td>
+			</div>
+			
+			<tr>
+			
+
+		    <div class="form-group">
+			<td>
+				<label for="txtAssunto">Tipo de evento:</label>
+				<select class="form-control" id="txtTipoEvento" name="txtTipoEvento">
+					<option value="">Selecione uma opção</option>
+					<option value="1">Casamento</option>
+					<option value="2">Corporativo</option>
+					<option value="3">Aniversário</option>
+					<option value="4">Debutante</option>
+					<option value="5">Bodas</option>
+					<option value="0">Outros</option>
+				</select>
+				</td>
+			</div>
+
+
+		    <div class="form-group">
+			<td>
+				<label for="txtAssunto">Local:</label>
+				<input class="form-control" type="text" id="txtLocal" name="txtLocal" placeholder="Digite o local">
+			</td>
+			</div>
+
+
+		    <div class="form-group">
+			<td>
+				<label for="txtAssunto">Data:</label>
+				<input class="form-control date-picker date" type="text" id="txtData" name="txtData" placeholder="Digite a data" maxlength="10" autocomplete="off">
+			</td>
+			</div>
+			
+			</tr>
+<tr>
+
+		    <div class="form-group">
+			<td>
+				<label for="txtAssunto">Como nos conheceu?</label>
+				<input class="form-control" type="text" id="txtComoConheceu" name="txtComoConheceu" placeholder="Digite aonde nos conheceu">
+				</td>
+			</div>
+
+</tr>
+<tr>
+
+		    <div class="form-group">
+			<td>
+				<label for="txtMensagem">Observações:</label>
+			<textarea class="hara-textarea form-control" name="txtObs" id="txtObs" cols="30" rows="10" placeholder="Digite aqui sua observação"></textarea>
+			</td>
+			</div>
+			
+			</tr>
+			<tr>
+			<td>
+			<div class="text-right col-sm-28">
+				<button class="hara-button btn text-center" onclick="return valida();" type="button"><i class="fa fa-paper-plane"></i>&nbsp;&nbsp;Enviar orçamento</button>
+			</div>
+			</td>
+			</tr>
+			</table>
+		</form>
+		</div>
+			</div>
+			</div>
    <footer>
 
       <div class="row">       
 
          <div class="six columns tab-whole footer-about">
 				
-				<h3>About Puremedia</h3>
+				<h3>SOBRE NÓS</h3>
                
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-            nibh id elit. 
+            <p>A JR IMAGEMARKET é uma empresa moçambicana no ramo da comunicação, criada em 2011, com experiência acumulada e valor agregado aos serviços prestados. 
             </p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
-            	incididunt ut labore et dolore magna aliqua.</p>        
+            <p>Criamos soluções através de projetos de comunicação visual que atendam as necessidades do mercado</p>        
 
          </div> <!-- /footer-about -->
 
@@ -967,9 +335,7 @@ Também está na nossa área de atuação o acompanhamento de entrevistas
                   <ul>
                      <li><a href="#">Facebook</a></li>
                      <li><a href="#">Twitter</a></li>
-                     <li><a href="#">GooglePlus</a></li>
-                     <li><a href="#">Instagram</a></li>
-                     <li><a href="#">Flickr</a></li>
+                     <li><a href="#">Instagram</a></li>             
                      <li><a href="#">Skype</a></li>
                   </ul>
                   
@@ -979,7 +345,7 @@ Também está na nossa área de atuação o acompanhamento de entrevistas
 
          </div>
 
-         <p class="copyright">&copy; Copyright 2021 Jr image market. Design by <a href="http://www.styleshout.com/">Styleshout.</a></p>        
+         <p class="copyright">&copy; Copyright 2021 Jr image market. Design by <a href="http://www.jamissemarket.co.mz/">jamissemarket.</a></p>        
 
          <div id="go-top">
             <a class="smoothscroll" title="Back to Top" href="#hero"><span>Top</span><i class="fa fa-long-arrow-up"></i></a>
@@ -989,18 +355,17 @@ Também está na nossa área de atuação o acompanhamento de entrevistas
 
    </footer> <!-- /footer -->
 
-
-   <!-- Java Script
+<!-- Java Script
    ================================================== -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>   
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/backstretch.js"></script> 
-   <script src="js/waypoints.js"></script>  
-   <script src="js/main.js"></script>
-
-</body>
+   <script src="js/jqueryorcamento.flexslider.js"></script>
+   <script src="js/jqueryorcamento.fittext.js"></script>
+   <script src="js/backstretchorcamento.js"></script> 
+   <script src="js/waypointsorcamento.js"></script>  
+   <script src="js/mainorcamento.js"></script>
+   
+  </body>
 
 </html>

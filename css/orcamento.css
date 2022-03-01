@@ -42,7 +42,7 @@
 /* Body
 ---------------------------------------------------------------------- */
 body {
-	background: #0e1015;
+	background: white;
 	font: 15px/30px "merriweather-regular", serif;
 	font-weight: normal;
 	color: #575859;
@@ -860,11 +860,6 @@ header .logo a {
 }
 .opaque {
 	background:rgb(88, 88, 88);
-}
-container .table{
-	border-collapse: separate;
-	border-spacing: 0 8px;
-	
 }
 
 /* primary navigation

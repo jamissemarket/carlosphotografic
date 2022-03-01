@@ -314,6 +314,21 @@ img {
 [class*="column"] + [class*="column"].end {
 	float: right;
 }
+.coluna{
+	float: right;
+	width: 550px;
+	margin-top: 125px;
+	margin-left: -125px;
+	
+}
+.hara-form {
+
+}
+.colluna{
+	float: left;
+	width: 450px;
+	margin-top: 125px;
+}
 .one, .row .one {
 	width: 8.33333%;
 }
