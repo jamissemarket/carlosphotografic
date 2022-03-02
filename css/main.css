@@ -1750,7 +1750,7 @@ hr {
 /* Estudios section
 /* =================================================================*/
 #Estudios{
-	background-color:white;
+	background-color: white;
 	filter: alpha(opacity = 52);
 	padding-top: 120px;
 	padding-bottom: 102px;
@@ -1769,6 +1769,7 @@ hr {
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
+
 #Estudios .row{
 	max-width:784;
 }
@@ -2031,9 +2032,11 @@ hr {
 /* ================================Estudios================================================*/
 .Estudios-content .entry header {
 	text-align: center;
+	background-color: #72bbf0;
 }
+
 .Estudios-content .entry .entry-content-media {
-	margin: 30px 0 0;
+	padding-left: 1000px;
 }
 .Estudios-content .entry .entry-content-media img {
 	margin-bottom: 30px;
@@ -2061,7 +2064,7 @@ hr {
 	margin-top: 0;
 }
 .portfolio-content .entry .pagenav a[rel="next"]:after {
-	float: right;
+	float: left;
 	margin: 20px 50px 30px 10px;
 }
 
