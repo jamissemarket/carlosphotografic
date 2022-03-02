@@ -2027,8 +2027,23 @@ hr {
 	color: white !important;
 	background: #f26522 !important;
 }
-
-
+/*
+/* ================================Estudios================================================*/
+.Estudios-content .entry header {
+	text-align: center;
+}
+.Estudios-content .entry .entry-content-media {
+	margin: 30px 0 0;
+}
+.Estudios-content .entry .entry-content-media img {
+	margin-bottom: 30px;
+}
+.Estudios-content .entry .pagenav {
+	margin-top: 0;
+}
+.Estudios-content .entry .pagenav a[rel="next"]:after {
+	float: right;
+}
 /* 
 /* r. Portfolio Entry
 /* =================================================================== */
@@ -2047,6 +2062,7 @@ hr {
 }
 .portfolio-content .entry .pagenav a[rel="next"]:after {
 	float: right;
+	margin: 20px 50px 30px 10px;
 }
 
 /* more projects
